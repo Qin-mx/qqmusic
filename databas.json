@@ -1,0 +1,65 @@
+[
+  {
+    "filename": "./musics/吴佳明 - 逍遥游.mp3",
+    "duration": "2:34",
+    "title": "逍遥游",
+    "album": "逍遥游",
+    "artist": "吴佳明"
+  },
+  {
+    "filename": "./musics/周传雄 - 冬天的秘密.mp3",
+    "duration": "4:33",
+    "title": "冬天的秘密",
+    "album": "恋人创世纪",
+    "artist": "周传雄"
+  },
+  {
+    "filename": "./musics/周传雄 - 寂寞沙洲冷.mp3",
+    "duration": "4:37",
+    "title": "寂寞沙洲冷",
+    "album": "星空下的传说",
+    "artist": "周传雄"
+  },
+  {
+    "filename": "./musics/周传雄 - 有没有一首歌会让你想起我.mp3",
+    "duration": "3:58",
+    "title": "有没有一首歌会让你想起我",
+    "album": "Dubbing 1987-2003新歌+经典",
+    "artist": "周传雄"
+  },
+  {
+    "filename": "./musics/周传雄 - 蓝色土耳其.mp3",
+    "duration": "4:44",
+    "title": "蓝色土耳其",
+    "album": "蓝色土耳其",
+    "artist": "周传雄"
+  },
+  {
+    "filename": "./musics/群星 - 天上掉下个猪八戒主题曲.mp3",
+    "duration": "0:46",
+    "title": "天上掉下个猪八戒主题曲",
+    "album": "热门华语254",
+    "artist": "群星"
+  },
+  {
+    "filename": "./musics/薛之谦 - 丑八怪.mp3",
+    "duration": "04:08",
+    "title": "丑八怪",
+    "album": "意外",
+    "artist": "薛之谦"
+  },
+  {
+    "filename": "./musics/薛之谦 - 演员.mp3",
+    "duration": "4:21",
+    "title": "演员",
+    "album": "绅士",
+    "artist": "薛之谦"
+  },
+  {
+    "filename": "./musics/薛之谦 - 认真的雪.mp3",
+    "duration": "4:21",
+    "title": "认真的雪",
+    "album": "未完成的歌",
+    "artist": "薛之谦"
+  }
+]

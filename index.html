@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>qqmusic</title>
+  <link rel="stylesheet" href="qqmusic.css">
+</head>
+<body>
+  <audio src="musics/周传雄 - 蓝色土耳其.mp3"></audio>
+  <div class="my-player" id="my-player">
+    <button class="icon fold-bt" title="点击收起/展开"></button>
+   <!-- 主播放页面 -->
+    <div class="my-player-dock" id="song-frame">
+      <ul class="music-info">
+        <li class="music-pic">
+          <a href="#"><img src="images/a.jpg" alt=""></a>
+        </li>
+        <li class="music-info-main">
+          <p class="music-name">
+            <span class="music-name-t">听我想听的歌</span>
+            <a href="#" class="icon music-radio"></a>
+          </p>
+          <p class="singer-name-t">qq音乐</p>
+          <p class="play-date">1:43</p>
+          <p class="music-op">
+            <strong class="icon bt-like" title="喜欢"></strong>
+            <strong class="icon bt-share" title="分享"></strong>
+            <strong class="icon bt-kge">
+              <span class="kge"><em><img src="images/dcode.png" alt="全民K歌二维码"></em><em>手机扫描二维码，唱这首歌</em><i class="kge-logo"></i>
+              </span>
+            </strong>
+          </p>
+        </li>
+      </ul>
+      <ul class="player-bar">
+        <li class="player-bg-bar"></li>
+        <li class="current-bar"></li>
+        <li class="progress-bar"></li>
+      </ul>
+      <div id="player-gai"></div>
+      <div class="time-show">
+        <p id="time-show">--:--</p>
+        <span class="arrow-foot">
+          <i class="foot-border"></i>
+          <i class="foot-arrow"></i>
+        </span>
+      </div>
+      <div class="bar-op">
+        <strong class="icon prev-bt" title="上一首"></strong>
+        <strong class="icon play-bt" title="播放"></strong>
+        <strong class="icon next-bt" title="下一首"></strong>
+        <strong class="icon cycle-bt" title="播放模式" id="btnPlayway"></strong>
+        <div class="volume" title="音量调节">
+          <div class="icon volume-icon" title="点击设为静音" id="spanmute"></div>
+          <ul class="volume-regulate" id="spanvolume">
+            <li class="icon volume-bar"></li>
+            <li class="icon volume-op"></li>
+          </ul>
+          <div id="zhegai"></div>
+        </div>
+      </div>
+      <p class="playbar-select" id="divselect">
+          <strong title="顺序播放" class="ordered-bt">
+          </strong>
+          <strong title="随机播放" class="unordered-bt">
+          </strong>
+          <strong title="单曲循环" class="cycle-single-bt">
+          </strong>
+          <strong title="列表循环" class="cycle-bt">
+          </strong>
+      </p>
+    </div>
+    <!-- 列表按钮 -->
+    <div class="icon open-list" title="展开/收起播放列表">
+      <span>0</span>
+    </div>
+    <!-- 歌词 -->
+    <div class="icon bt-lyrics" id="btlrc"></div>
+    <!-- 播放列表 -->
+    <div class="player-list-frame">
+      <div class="play-list-title">
+        <ul class="tab-container">
+          <li class="current"><a href="#">播放列表</a></li>
+        </ul>
+        <span class="clear-list">清空列表</span>
+        <div class="icon close-list" title="收起播放列表"></div>
+      </div>
+      <div class="play-list" id="divsonglist">
+          <div class="list-point" id="divnulllist">
+            <div>
+              <h4>您当前还未添加任何歌曲</h4>
+              <p>您可以：</p>
+              <p>
+                <span>在</span><a href="#" title="QQ音乐">首页</a>选择试听我们推荐的歌曲。
+              </p>
+              <p><span>在</span><a href="#" title="乐库">乐库</a>中查找您想听的歌曲。
+              </p>
+            </div>
+          </div>
+          <div class="single_list" id="divsonglist1" dirid="0">
+            <ul class="music-list">
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src = "js/jquery.js"></script>
+  <script src = "js/qqyinyue.js"></script>
+</body>
+</html>
